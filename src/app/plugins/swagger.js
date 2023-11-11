@@ -5,9 +5,9 @@ import fp from 'fastify-plugin'
 const swaggerConfigOptions = {
     openapi: {
         info: {
-            title: 'Test swagger',
-            description: 'testing the fastify swagger api',
-            version: '0.1.0'
+            title: 'Expensify Swagger',
+            description: 'Swagger for expensify app',
+            version: '1.0.1'
         },
     },
 }

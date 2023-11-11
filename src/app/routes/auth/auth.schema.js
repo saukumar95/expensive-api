@@ -1,15 +1,15 @@
 export const getHelloWorldSchema = {
     description: 'Get Hello world from API',
-    tags: ['First API'],
+    tags: ['Auth Service'],
     response: {
         200: {
             description: 'Successful response',
             type: 'object',
             properties: {
-                hello: { type: 'string' }
+                message: { type: 'string' }
             },
             examples: [{
-                hello: 'World'
+                message: 'Hello World'
             }]
         },
         404: {
