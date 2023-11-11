@@ -1,7 +1,7 @@
 {
   "name": "expensify-api",
   "version": "1.0.0",
-  "description": "backend api for expensify app",
+  "description": "Backend api for Expensify App",
   "type": "module",
   "scripts": {
     "start": "node server",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saukumar95/expensive-api.git"
+    "url": "git+https://github.com/saukumar95/expensify-api.git"
   },
   "keywords": [
     "node",
