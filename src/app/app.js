@@ -24,6 +24,7 @@ const app = async (instance, opts) => {
         },
     })
 
+    // Fix for this issue from fastify-swagger - https://github.com/fastify/fastify-swagger/issues/758
     instance.addHook('onReady', () => {
         instance.swagger()
     })
