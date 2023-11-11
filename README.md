@@ -1,2 +1,2 @@
-# expensive-api
-backend api for expensive app
+# Expensify Backend API 
+Backend api for Expensify App
