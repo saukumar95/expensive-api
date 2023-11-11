@@ -1,0 +1,41 @@
+{
+  "name": "expensify-api",
+  "version": "1.0.0",
+  "description": "backend api for expensify app",
+  "type": "module",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon --inspect src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saukumar95/expensive-api.git"
+  },
+  "keywords": [
+    "node",
+    "fastify",
+    "ai"
+  ],
+  "author": "saurabh kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saukumar95/expensive-api/issues"
+  },
+  "homepage": "https://github.com/saukumar95/expensive-api#readme",
+  "dependencies": {
+    "@fastify/autoload": "^5.8.0",
+    "@fastify/cors": "^8.4.1",
+    "@fastify/env": "^4.3.0",
+    "@fastify/swagger": "^8.12.0",
+    "@fastify/swagger-ui": "^1.10.1",
+    "fastify": "^4.24.3",
+    "fastify-healthcheck": "^4.4.0",
+    "fastify-plugin": "^4.5.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3"
+  }
+}
