@@ -16,7 +16,7 @@ export default async (instance) => {
     const loginCallback = async (req, reply) => {
         reply.type("application/json")
         try {
-            reply.redirect("/api/auth")
+            reply.redirect("/api/auth/greet")
         } catch (error) {
             reply.code(500)
             request.log.error(error)
