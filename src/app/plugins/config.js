@@ -6,19 +6,17 @@ const schema = {
     properties: {
         BASE_ROUTE_PREFIX: {
             type: 'string',
-            default: ''
+            default: '',
         },
         CLIENT_ID: {
             type: 'string',
-            default: ''
+            default: '',
         },
         CLIENT_SECRET: {
             type: 'string',
-            default: ''
-        }
-
-
-    }
+            default: '',
+        },
+    },
 }
 
 const options = {

@@ -20,7 +20,7 @@ const app = async (instance, opts) => {
         dir: path.join(APP_DIR, 'routes'),
         options: {
             ...opts,
-            prefix: instance.config.BASE_ROUTE_PREFIX
+            prefix: instance.config.BASE_ROUTE_PREFIX,
         },
     })
 
@@ -30,4 +30,4 @@ const app = async (instance, opts) => {
     })
 }
 
-export default app;
+export default app
