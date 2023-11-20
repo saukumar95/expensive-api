@@ -7,7 +7,7 @@ const swaggerConfigOptions = {
         info: {
             title: 'Expensify Swagger',
             description: 'Swagger for expensify app',
-            version: '1.0.1'
+            version: '1.0.1',
         },
     },
 }
@@ -15,8 +15,8 @@ const swaggerConfigOptions = {
 const createSwaggerUiConfigOptions = (prefix) => ({
     routePrefix: `${prefix}/swagger`,
     staticCSP: true,
-    exposeRoute: true
-});
+    exposeRoute: true,
+})
 
 export default fp(async (instance) => {
     const prefix = instance.config.BASE_ROUTE_PREFIX
